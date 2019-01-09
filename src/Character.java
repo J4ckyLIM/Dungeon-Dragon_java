@@ -1,12 +1,14 @@
-public class Personnage {
-    private String name = "Boubou";
-    private String role = "Tank";
+import java.util.HashMap;
+
+public class Character {
+    private String name;
+    private String classe;
     private int level = 1;
     private int strength = 1;
     private int agility = 1;
     private int health = 100;
     private Integer experience = 0;
-    private String skill = "Coup d'boule";
+    private HashMap<String, Integer> carac = new HashMap<>();
 
 /*public Personnage (int level, int strength, int agility, int health, String skill){
     this.level = 20;
@@ -15,14 +17,17 @@ public class Personnage {
     this.health = 200;
     this.skill = "Coup d'Bambou";
 }**/
-    public void setRole(String newRole){
-        role = newRole;
+    public void setClasse(String newClasse){
+        classe = newClasse;
     }
-    public String getRole(){
-        return role;
+    public String getClasse(){
+        return classe;
     }
     public int getLevel() {
         return level;
+    }
+    public void setLevel(int newLevel){
+        level = newLevel;
     }
 
     public void setHealth(int newHealth) {
