@@ -1,12 +1,11 @@
-package codingfactory.dndarena.characters;
 
 import java.util.ArrayList;
 
 public class DnDCharacterManager {
 
-	private static ArrayList<DndCharacter> players = new ArrayList<>();
+	private static ArrayList<DnDCharacter> players = new ArrayList<>();
 
-	public static ArrayList<DndCharacter> getPlayers() {
+	public static ArrayList<DnDCharacter> getPlayers() {
 		return  players;
 	}
 }

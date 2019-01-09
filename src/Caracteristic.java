@@ -1,4 +1,3 @@
-package codingfactory.dndarena.characters;
 
 public enum Caracteristic {
 
@@ -20,3 +19,4 @@ public enum Caracteristic {
 		return this.name;
 	}
 }
+

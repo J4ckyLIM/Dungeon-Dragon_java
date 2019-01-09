@@ -1,5 +1,3 @@
-package codingfactory.dndarena.items;
-
 public abstract class Item {
 	private String name;
 	private int cost;

@@ -1,4 +1,3 @@
-package codingfactory.dndarena.utils;
 
 import java.util.Random;
 
