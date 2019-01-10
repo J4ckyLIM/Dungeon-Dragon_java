@@ -11,4 +11,3 @@ public class DnDPlayer extends DnDCharacter {
     }
 
     public PlayerRace
-}
